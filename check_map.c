@@ -21,7 +21,7 @@ int				ft_check_diese(char *str, int i)
 	{
 		if (str[i] == '#')
 			count++;
-		if (str[i] == '\n' && (str[i + 1] == '\n' || str[i + 1] == '\0') )
+		if (str[i] == '\n' && (str[i + 1] == '\n' || str[i + 1] == '\0'))
 		{
 			if (count != 4)
 				return (0);
