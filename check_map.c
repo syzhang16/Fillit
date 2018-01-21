@@ -62,7 +62,7 @@ int				ft_check_tetriminos(char *str, int i)
 
 int				ft_check_char(char *str)
 {
-	if (str[ft_strlen(str) - 1] != '\n' || ((int)ft_strlen(str) / 21 + 1 > 27))
+	if (str[ft_strlen(str) - 1] != '\n' || ((int)ft_strlen(str) / 21 + 1 > 26))
 		return (0);
 	if ((str[ft_strlen(str) - 1] == '\n') && (str[ft_strlen(str) - 2] == '\n'))
 		return (0);
